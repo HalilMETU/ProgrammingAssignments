@@ -1,0 +1,6 @@
+2 Test Runs can be found in first 2 pages of the pdf
+
+Movement keys: w, a, s, d;
+Go Back: z;
+Replay&Quit: r;
+Quit: q;
