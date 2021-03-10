@@ -1,0 +1,69 @@
+Threshold 10
+Array Size: 100
+
+BubbleSort:    4801            2494        0.0772277
+SelectionSort  4950              99        0.0277228
+InsertionSort  2494            2494        0.0435644
+QuickSort1      699             160        0.00796813
+QuickSort2      663             230        0.0103586
+QuickSort3      647             230        0.0111554
+QuickSort4      723             230        0.0191235
+QuickSort5      709             221        0.0063745
+CustomSort      667             213        0.00717131
+CustomSort2     589             234        0.00717131
+
+
+Array Size: 1000
+
+BubbleSort:    540402           272881        6.63636
+SelectionSort  544950             1908        3.8
+InsertionSort  272881           272881        3.16364
+QuickSort1      17554             3937        0.261538
+QuickSort2      17582             5273        0.238462
+QuickSort3      17330             5274        0.230769
+QuickSort4      18088             5299        0.353846
+QuickSort5      17622             5136        0.176923
+CustomSort      16915             5013        0.207692
+CustomSort2     15310             5457        0.153846
+
+
+Array Size: 5000
+
+BubbleSort:   14447729           7273348      173.4
+SelectionSort 14495650             11995       90.4
+InsertionSort  7273348           7273348       94
+QuickSort1      146996             31674        1.8
+QuickSort2      147291             40808        2.03333
+QuickSort3      145852             40801        2.2
+QuickSort4      147383             41105        2.56667
+QuickSort5      145880             39899        1.93333
+CustomSort      142643             39087        1.66667
+CustomSort2     130017             42189        1.7
+
+
+Array Size: 10000
+
+BubbleSort:   71630510           35859412     1089.5
+SelectionSort 71738475              27991      562.9
+InsertionSort 35859412           35859412      544
+QuickSort1      449940              94848        5.13333
+QuickSort2      445304             119896        5.66667
+QuickSort3      451153             119656        6.06667
+QuickSort4      445109             120773        7.26667
+QuickSort5      441550             117509        6
+CustomSort      438253             115334        5.13333
+CustomSort2     398082             123748        4.86667
+
+
+Array Size: 25000
+
+BubbleSort:    -403385288          228201379      6107.2
+SelectionSort  -403029009              80982      3011
+InsertionSort   228201379          228201379      3122.8
+QuickSort1        1104979             228654        12.6
+QuickSort2        1089307             283404        13
+QuickSort3        1113033             282384        14.6
+QuickSort4        1080798             285727        17.1
+QuickSort5        1067476             278863        14.6
+CustomSort        1079582             273273        12.6
+CustomSort2        973044             292544        11.8

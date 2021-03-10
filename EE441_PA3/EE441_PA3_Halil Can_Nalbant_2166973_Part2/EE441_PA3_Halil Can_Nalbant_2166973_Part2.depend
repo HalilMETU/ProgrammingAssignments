@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1608379798 source:d:\desktop_contemporary\metu\ee441\programming assignment 3\ee441_pa3_halil can_nalbant_2166973_part2\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<ctime>
+	"statistics.h"
+	"BubbleSort.h"
+	"SelectionSort.h"
+	"Loader.h"
+	"QuickSort.h"
+	"CustomSort.h"
+	"PerformanceEvaluation.h"
+	"UserInterface.h"
+
+1608381897 d:\desktop_contemporary\metu\ee441\programming assignment 3\ee441_pa3_halil can_nalbant_2166973_part2\userinterface.h
+
+1608379915 d:\desktop_contemporary\metu\ee441\programming assignment 3\ee441_pa3_halil can_nalbant_2166973_part2\statistics.h
+
+1608379930 d:\desktop_contemporary\metu\ee441\programming assignment 3\ee441_pa3_halil can_nalbant_2166973_part2\bubblesort.h
+
+1608380530 d:\desktop_contemporary\metu\ee441\programming assignment 3\ee441_pa3_halil can_nalbant_2166973_part2\selectionsort.h
+
+1608381737 d:\desktop_contemporary\metu\ee441\programming assignment 3\ee441_pa3_halil can_nalbant_2166973_part2\loader.h
+
+1608381327 d:\desktop_contemporary\metu\ee441\programming assignment 3\ee441_pa3_halil can_nalbant_2166973_part2\quicksort.h
+
+1608380260 d:\desktop_contemporary\metu\ee441\programming assignment 3\ee441_pa3_halil can_nalbant_2166973_part2\customsort.h
+
+1608381594 d:\desktop_contemporary\metu\ee441\programming assignment 3\ee441_pa3_halil can_nalbant_2166973_part2\performanceevaluation.h
+
