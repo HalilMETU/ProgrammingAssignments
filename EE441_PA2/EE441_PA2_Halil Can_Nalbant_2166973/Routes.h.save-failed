@@ -1,0 +1,213 @@
+//graph data structure for storing routes
+class Routes{
+
+
+private:
+
+    int nV, nE;//number of vertexes and edges
+    int mM[mSize][mSize];//adjacency matrix
+
+    void setEdge(int &v1, int &v2, int &wt); // set edge with weight wt
+    void delEdge(int &v1, int &v2); // delete edge
+    bool isEdge(int &v1, int &v2); // is (v1,vj) an edge?
+    int weight(int &v1, int &v2); // get the weight of (v1,v2)
+
+    void clearVertex(int v);// clears all edges related to v
+    void CtrlInput(int &a);// checks the input values of int for validity also converts out of range 21->1 (-1)->19
+
+
+public:
+    string mCities[mSize];//holds city names
+    //Constructor & Destructor
+    Routes();
+    //~Routes();
+
+
+    void addGcity(string Cname)const{}//left empty because in this implementation it is not necessary to implement this method
+    void removeGcity(string Cname){clearVertex(searchGcity(Cname));}//clears all the weights associated to Vertex v
+    string searchGcity(int i);//returns corresponding city name
+    void addGroute(int c1, int c2, int w);//sets an edge with given weight
+    void removeGroute(int c1, int c2);//removes route
+    bool searchGroute(int c1, int c2);//RETurns weight
+    void setTicketPrice(int c1, int c2, int w);//edits weight
+    int getTicketPrice(int c1, int c2);//RETurns weight
+
+    int searchGcity(string cName);//same operations with different input type
+    void addGroute(string cName1, string cName2, int& w);
+    void removeGroute(string cName1, string cName2);
+    int searchGroute(string cName1, string cName2);
+    void setTicketPrice(string cName1, string cName2, int& w);
+    int getTicketPrice(string cName1, string cName2);
+
+
+    //void listGroutes() const;
+
+};
+
+
+Routes::Routes(){
+
+nV=mSize;
+int i;
+nE= 0;
+//loading cities string array
+string line;
+ifstream myfile("citylist.txt");
+if (myfile.is_open())
+    {
+    while ( getline (myfile,line) )
+        {
+        mCities[i]=line;
+        cout << mCities[i] << "\n";
+        i++;
+        }
+    myfile.close();
+    }
+else cout << "Unable to open file";
+
+
+for(i=0; i < nV; i++) // Initialize to 0
+    for (int j=0; j < nV; j++){
+        mM[i][j] = 0;
+        cout<< mM[i][j]<<endl;
+    }
+}
+
+void Routes::CtrlInput(int &a){
+    if(a<0 || a>nV-1){
+        cerr<<"Trying to reach a vertex out of limits, request looped back"<<endl;
+        a= (a%nV<0) ? a%nV+nV : a%nV;
+    }
+}
+
+void Routes::clearVertex(int v){
+int i=0;
+for (i=0; i<nV; i++)
+    delEdge(i,v);
+for (i=0; i<nV; i++)
+    delEdge(v,i);
+
+}
+
+void Routes::setEdge(int &v1, int &v2, int& wt) {
+assert(wt > 0);
+if (mM[v1][v2] == 0)
+    nE++;
+mM[v1][v2] = wt;
+}
+
+void Routes::delEdge(int &v1, int &v2) { // Delete edge (v1, v2)
+if (mM[v1][v2] != 0)
+    nE--;
+mM[v1][v2] = 0;
+}
+
+bool Routes::isEdge(int &i, int &j){ // Is (v1,v2) an edge?
+return mM[i][j] != 0;
+}
+
+int Routes::weight(int &v1, int &v2){ // Return weight of (v1,v2)
+CtrlInput(v1);CtrlInput(v2);
+return mM[v1][v2];
+}
+
+string Routes::searchGcity(int i){
+CtrlInput(i);
+return mCities[i];
+}
+
+void Routes::addGroute(int c1, int c2, int w){
+if(isEdge(c1,c2))
+    cout<<"ROUTE UPDATED : ";
+else{
+    cout<<"NEW ROUTE : ";}
+setEdge(c1,c2,w);
+setEdge(c2,c1,w);
+cout<<w/10<<w%10<<" : "<<mCities[c1]<<"<--->"<<mCities[c2]<<endl;
+}
+
+void Routes::removeGroute(int c1, int c2){
+delEdge(c1,c2);
+delEdge(c2,c1);
+if(!isEdge(c1,c2))
+cout<<"ROUTE REMOVED : "<<mCities[c1]<<"<--->"<<mCities[c2]<<endl;
+}
+
+bool Routes::searchGroute(int c1, int c2){
+return isEdge(c1,c2);
+}
+
+void Routes::setTicketPrice(int c1, int c2, int w){
+setEdge(c1,c2,w);
+setEdge(c2,c1,w);
+if(isEdge(c1,c2))
+    cout<<"ROUTE UPDATE : "<<weight(c1,c2)/10<<weight(c1,c2)%10<<" : "<<mCities[c1]<<"<--->"<<mCities[c2]<<endl;
+}
+
+int Routes::getTicketPrice(int c1, int c2){
+return weight(c1,c2);
+}
+
+
+
+
+int Routes::searchGcity(string cName){
+for(int i=0 ; i<nV ; i++)
+        if(cName.compare(mCities[i])==0)
+            return i;
+    return nV;
+}
+
+void Routes::addGroute(string cName1, string cName2, int& w){
+    int c1=searchGcity(cName1);
+    int c2=searchGcity(cName2);
+    if(c1!=nV && c2!=nV && c1!=c2){
+        setEdge(c1,c2,w);
+        setEdge(c2,c1,w);
+    }
+if(isEdge(c1,c2))
+    cout<<"NEW ROUTE : "<<weight(c1,c2)/10<<weight(c1,c2)%10<<" : "<<mCities[c1]<<"<--->"<<mCities[c2]<<endl;
+}
+
+void Routes::removeGroute(string cName1, string cName2){
+    int c1=searchGcity(cName1);
+    int c2=searchGcity(cName2);
+    if(c1!=nV && c2!=nV && c1!=c2){
+        delEdge(c1,c2);
+        delEdge(c2,c1);
+    }
+if(!isEdge(c1,c2))
+    cout<<"ROUTE REMOVED : "<<mCities[c1]<<"<--->"<<mCities[c2]<<endl;
+}
+
+int Routes::searchGroute(string cName1, string cName2){
+    int c1=searchGcity(cName1);
+    int c2=searchGcity(cName2);
+    if(c1!=nV && c2!=nV && c1!=c2){
+        return weight(c1,c2);
+    }
+    else
+        return -1;
+}
+
+void Routes::setTicketPrice(string cName1, string cName2, int& w){
+    int c1=searchGcity(cName1);
+    int c2=searchGcity(cName2);
+    if(c1!=nV && c2!=nV && c1!=c2){
+        setEdge(c1,c2,w);
+        setEdge(c2,c1,w);
+    }
+if(isEdge(c1,c2))
+    cout<<"ROUTE UPDATE : "<<weight(c1,c2)/10<<weight(c1,c2)%10<<" : "<<mCities[c1]<<"<--->"<<mCities[c2]<<endl;
+}
+
+int Routes::getTicketPrice(string cName1, string cName2){
+    int c1=searchGcity(cName1);
+    int c2=searchGcity(cName2);
+    if(c1!=nV && c2!=nV && c1!=c2){
+        return weight(c1,c2);
+    }
+    else
+        return -1;
+}
+

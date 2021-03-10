@@ -1,0 +1,439 @@
+----------------Month 1------------------:
+Routes:
+(Gulf of Archi--->Logicheim, 42)
+(Probia--->Gulf of Archi, 54)
+(Signale--->Probia, 98)
+(Probia--->Las Datas, 68)
+(Probia--->Logicheim, 63)
+(Logicheim--->Probia, 83)
+
+
+Flights:
+EE0103
+EE0107
+EE0118
+EE0701
+EE1501
+EE1807
+
+Discarded Routes & Routes on Discount:
+(Probia--->Logicheim, 31) is 50% Off
+(Logicheim--->Probia, 41) is 50% Off
+(Gulf of Archi--->Logicheim, 21) is 50% Off
+
+
+----------------Month 2------------------:
+Monthly New Route Offers
+(Las Datas--->Analograd, 91) Route Added
+(Waverium--->West Circuitta, 42) Route Added
+(Prokontrolkka--->Telecommunicastan, 8) Route Added
+(Machineland--->South Kirchoff, 18) Route Added
+(North Kirchoff--->Analograd, 46) Route Added
+
+Monthly New Flight Offers
+Flight EE0308 added
+Flight EE1205 added
+Flight EE1413 added
+Flight EE0217 added
+Flight EE1608 added
+
+Cancelled Flights:
+Flight EE0107 Cancelled
+Flight EE1807 Cancelled
+
+Discarded Routes & Routes on Discount:
+(Probia--->Logicheim) Route Discarded
+(Gulf of Archi--->Logicheim) Route Discarded
+(Machineland--->South Kirchoff, 9) is 50% Off
+(Waverium--->West Circuitta, 21) is 50% Off
+(North Kirchoff--->Analograd, 23) is 50% Off
+
+
+Routes:
+(Probia--->Las Datas, 68)
+(Probia--->Gulf of Archi, 54)
+(Machineland--->South Kirchoff, 9)
+(Las Datas--->Analograd, 91)
+(Logicheim--->Probia, 41)
+(Waverium--->West Circuitta, 21)
+(Prokontrolkka--->Telecommunicastan, 8)
+(Signale--->Probia, 98)
+(North Kirchoff--->Analograd, 23)
+
+
+Flights:
+EE0103
+EE0118
+EE0217
+EE0308
+EE0701
+EE1205
+EE1413
+EE1501
+EE1608
+
+
+----------------Month 3------------------:
+Monthly New Route Offers
+(Prokontrolkka--->West Circuitta, 94) Route Added
+(Waverium--->Prokontrolkka, 38) Route Added
+(Analograd--->West Circuitta, 92) Route Added
+(Neural's Deep--->San Antenna, 40) Route Added
+(Biomedberg--->New Oerstad, 41) Route Added
+
+Monthly New Flight Offers
+Flight EE1405 added
+Flight EE1214 added
+Flight EE0805 added
+Flight EE2004 added
+Flight EE1019 added
+
+Cancelled Flights:
+Flight EE0217 Cancelled
+Flight EE1608 Cancelled
+
+Discarded Routes & Routes on Discount:
+(Machineland--->South Kirchoff) Route Discarded
+(North Kirchoff--->Analograd) Route Discarded
+(Analograd--->West Circuitta, 46) is 50% Off
+(Biomedberg--->New Oerstad, 20) is 50% Off
+(Waverium--->Prokontrolkka, 19) is 50% Off
+(Prokontrolkka--->West Circuitta, 47) is 50% Off
+
+
+Routes:
+(Probia--->Las Datas, 68)
+(Probia--->Gulf of Archi, 54)
+(Las Datas--->Analograd, 91)
+(Logicheim--->Probia, 41)
+(Analograd--->West Circuitta, 46)
+(Biomedberg--->New Oerstad, 20)
+(Waverium--->West Circuitta, 21)
+(Waverium--->Prokontrolkka, 19)
+(Prokontrolkka--->West Circuitta, 47)
+(Prokontrolkka--->Telecommunicastan, 8)
+(Signale--->Probia, 98)
+(Neural's Deep--->San Antenna, 40)
+
+
+Flights:
+EE0103
+EE0118
+EE0308
+EE0701
+EE0805
+EE1019
+EE1205
+EE1214
+EE1405
+EE1413
+EE1501
+EE2004
+
+
+----------------Month 4------------------:
+Monthly New Route Offers
+(Biomedberg--->Magneta, 6) Route Added
+(Logicheim--->Machineland, 40) Route Added
+(Island of Semicon--->Biomedberg, 51) Route Added
+(West Circuitta--->Signale, 46) Route Added
+(Probia--->Logicheim, 51) Route Added
+
+Monthly New Flight Offers
+Flight EE1011 added
+Flight EE0702 added
+Flight EE0910 added
+Flight EE0515 added
+Flight EE0107 added
+
+Cancelled Flights:
+Flight EE1214 Cancelled
+Flight EE1405 Cancelled
+
+Discarded Routes & Routes on Discount:
+(Waverium--->Prokontrolkka) Route Discarded
+(Prokontrolkka--->West Circuitta) Route Discarded
+(West Circuitta--->Signale, 23) is 50% Off
+(Island of Semicon--->Biomedberg, 25) is 50% Off
+
+
+Routes:
+(Probia--->Las Datas, 68)
+(Probia--->Logicheim, 51)
+(Probia--->Gulf of Archi, 54)
+(Las Datas--->Analograd, 91)
+(West Circuitta--->Signale, 23)
+(Logicheim--->Probia, 41)
+(Logicheim--->Machineland, 40)
+(Analograd--->West Circuitta, 46)
+(Island of Semicon--->Biomedberg, 25)
+(Biomedberg--->Magneta, 6)
+(Biomedberg--->New Oerstad, 20)
+(Waverium--->West Circuitta, 21)
+(Prokontrolkka--->Telecommunicastan, 8)
+(Signale--->Probia, 98)
+(Neural's Deep--->San Antenna, 40)
+
+
+Flights:
+EE0103
+EE0107
+EE0118
+EE0308
+EE0515
+EE0701
+EE0702
+EE0805
+EE0910
+EE1011
+EE1019
+EE1205
+EE1413
+EE1501
+EE2004
+
+
+----------------Month 5------------------:
+Monthly New Route Offers
+(Machineland--->Prokontrolkka, 30) Route Added
+(Neural's Deep--->New Oerstad, 34) Route Added
+(Magneta--->Gulf of Archi, 30) Route Added
+(Prokontrolkka--->Logicheim, 72) Route Added
+(East Circuitta--->West Circuitta, 65) Route Added
+
+Monthly New Flight Offers
+Flight EE0214 added
+Flight EE2019 added
+Flight EE1118 added
+Flight EE1407 added
+Flight EE0605 added
+
+Cancelled Flights:
+Flight EE0515 Cancelled
+Flight EE0910 Cancelled
+
+Discarded Routes & Routes on Discount:
+(West Circuitta--->Signale) Route Discarded
+(Island of Semicon--->Biomedberg) Route Discarded
+(East Circuitta--->West Circuitta, 32) is 50% Off
+(Magneta--->Gulf of Archi, 15) is 50% Off
+
+
+Routes:
+(Probia--->Las Datas, 68)
+(Probia--->Logicheim, 51)
+(Probia--->Gulf of Archi, 54)
+(Machineland--->Prokontrolkka, 30)
+(Las Datas--->Analograd, 91)
+(East Circuitta--->West Circuitta, 32)
+(Logicheim--->Probia, 41)
+(Logicheim--->Machineland, 40)
+(Analograd--->West Circuitta, 46)
+(Biomedberg--->Magneta, 6)
+(Biomedberg--->New Oerstad, 20)
+(Magneta--->Gulf of Archi, 15)
+(Waverium--->West Circuitta, 21)
+(Prokontrolkka--->Logicheim, 72)
+(Prokontrolkka--->Telecommunicastan, 8)
+(Signale--->Probia, 98)
+(Neural's Deep--->San Antenna, 40)
+(Neural's Deep--->New Oerstad, 34)
+
+
+Flights:
+EE0103
+EE0107
+EE0118
+EE0214
+EE0308
+EE0605
+EE0701
+EE0702
+EE0805
+EE1011
+EE1019
+EE1118
+EE1205
+EE1407
+EE1413
+EE1501
+EE2004
+EE2019
+
+
+----------------Month 6------------------:
+Monthly New Route Offers
+(Analograd--->North Kirchoff, 32) Route Added
+(Waverium--->Telecommunicastan, 27) Route Added
+(Magneta--->Machineland, 44) Route Added
+(Logicheim--->Magneta, 22) Route Added
+(Waverium--->Analograd, 52) Route Added
+
+Monthly New Flight Offers
+Flight EE0816 added
+Flight EE1213 added
+Flight EE1102 added
+Flight EE0711 added
+Flight EE1208 added
+
+Cancelled Flights:
+Flight EE1118 Cancelled
+
+Discarded Routes & Routes on Discount:
+(Magneta--->Gulf of Archi) Route Discarded
+(Analograd--->North Kirchoff, 16) is 50% Off
+(Magneta--->Machineland, 22) is 50% Off
+
+
+Missing Return Routes
+(Probia--->Signale, 87) Route Added
+(Machineland--->Logicheim, 98) Route Added
+(Machineland--->Magneta, 84) Route Added
+(Las Datas--->Probia, 62) Route Added
+(San Antenna--->Neural's Deep, 79) Route Added
+(West Circuitta--->East Circuitta, 63) Route Added
+(West Circuitta--->Analograd, 10) Route Added
+(West Circuitta--->Waverium, 21) Route Added
+(Logicheim--->Prokontrolkka, 52) Route Added
+(Analograd--->Las Datas, 72) Route Added
+(Analograd--->Waverium, 86) Route Added
+(Magneta--->Logicheim, 24) Route Added
+(Magneta--->Biomedberg, 4) Route Added
+(Telecommunicastan--->Waverium, 45) Route Added
+(Telecommunicastan--->Prokontrolkka, 66) Route Added
+(Prokontrolkka--->Machineland, 49) Route Added
+(North Kirchoff--->Analograd, 74) Route Added
+(Gulf of Archi--->Probia, 82) Route Added
+(New Oerstad--->Biomedberg, 39) Route Added
+(New Oerstad--->Neural's Deep, 96) Route Added
+
+
+Missing Return Flights
+Flight EE0115 added
+Flight EE0207 added
+Flight EE0211 added
+Flight EE0301 added
+Flight EE0420 added
+Flight EE0506 added
+Flight EE0508 added
+Flight EE0512 added
+Flight EE0714 added
+Flight EE0803 added
+Flight EE0812 added
+Flight EE1107 added
+Flight EE1110 added
+Flight EE1312 added
+Flight EE1314 added
+Flight EE1402 added
+Flight EE1608 added
+Flight EE1801 added
+Flight EE1910 added
+Flight EE1920 added
+
+
+Routes:
+(Probia--->Las Datas, 68)
+(Probia--->Logicheim, 51)
+(Probia--->Signale, 87)
+(Probia--->Gulf of Archi, 54)
+(Machineland--->Logicheim, 98)
+(Machineland--->Magneta, 84)
+(Machineland--->Prokontrolkka, 30)
+(Las Datas--->Probia, 62)
+(Las Datas--->Analograd, 91)
+(San Antenna--->Neural's Deep, 79)
+(West Circuitta--->East Circuitta, 63)
+(West Circuitta--->Analograd, 10)
+(West Circuitta--->Waverium, 21)
+(East Circuitta--->West Circuitta, 32)
+(Logicheim--->Probia, 41)
+(Logicheim--->Machineland, 40)
+(Logicheim--->Magneta, 22)
+(Logicheim--->Prokontrolkka, 52)
+(Analograd--->Las Datas, 72)
+(Analograd--->West Circuitta, 46)
+(Analograd--->Waverium, 86)
+(Analograd--->North Kirchoff, 16)
+(Biomedberg--->Magneta, 6)
+(Biomedberg--->New Oerstad, 20)
+(Magneta--->Machineland, 22)
+(Magneta--->Logicheim, 24)
+(Magneta--->Biomedberg, 4)
+(Waverium--->West Circuitta, 21)
+(Waverium--->Analograd, 52)
+(Waverium--->Telecommunicastan, 27)
+(Telecommunicastan--->Waverium, 45)
+(Telecommunicastan--->Prokontrolkka, 66)
+(Prokontrolkka--->Machineland, 49)
+(Prokontrolkka--->Logicheim, 72)
+(Prokontrolkka--->Telecommunicastan, 8)
+(Signale--->Probia, 98)
+(North Kirchoff--->Analograd, 74)
+(Gulf of Archi--->Probia, 82)
+(New Oerstad--->Biomedberg, 39)
+(New Oerstad--->Neural's Deep, 96)
+(Neural's Deep--->San Antenna, 40)
+(Neural's Deep--->New Oerstad, 34)
+
+
+Flights:
+EE0103
+EE0107
+EE0115
+EE0118
+EE0207
+EE0211
+EE0214
+EE0301
+EE0308
+EE0420
+EE0506
+EE0508
+EE0512
+EE0605
+EE0701
+EE0702
+EE0711
+EE0714
+EE0803
+EE0805
+EE0812
+EE0816
+EE1011
+EE1019
+EE1102
+EE1107
+EE1110
+EE1205
+EE1208
+EE1213
+EE1312
+EE1314
+EE1402
+EE1407
+EE1413
+EE1501
+EE1608
+EE1801
+EE1910
+EE1920
+EE2004
+EE2019
+
+
+One-way Trip Options for Machineland ---> Magneta :
+Direct Option: Machineland ---> EE0211 ---> Magneta for 84
+1-Stop Option: Machineland ---> EE0207 ---> Logicheim ---> EE0711 ---> Magneta for 98 + 22
+2-Stop Option: Machineland ---> EE0214 ---> Prokontrolkka ---> EE1407 ---> Logicheim ---> EE0711 ---> Magneta for 30 + 72 + 22
+
+
+One-way Trip Options for Analograd ---> Prokontrolkka :
+2-Stop Option: Analograd ---> EE0812 ---> Waverium ---> EE1213 ---> Telecommunicastan ---> EE1314 ---> Prokontrolkka for 86 + 27 + 66
+
+
+One-way Trip Options for Biomedberg ---> Magneta :
+Direct Option: Biomedberg ---> EE1011 ---> Magneta for 6
+
+
+One-way Trip Options for Gulf of Archi ---> Probia :
+Direct Option: Gulf of Archi ---> EE1801 ---> Probia for 82
